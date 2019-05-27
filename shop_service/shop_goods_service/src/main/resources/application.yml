@@ -1,0 +1,21 @@
+spring:
+  datasource:
+    url: jdbc:mysql:///shop_test
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
+  rabbitmq:
+    host: 152.136.157.169
+    username: admin
+    password: admin
+    virtual-host: /admin
+dubbo:
+  registry:
+    address:  zookeeper://152.136.157.169:2181
+  protocol:
+    name: dubbo
+    port: -1
+  application:
+    name: service_goods
+  consumer:
+    check: false

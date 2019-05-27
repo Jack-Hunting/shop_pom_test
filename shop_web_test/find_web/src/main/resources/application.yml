@@ -1,0 +1,12 @@
+server:
+  port: 8082
+dubbo:
+  application:
+    name: web_find
+  registry:
+    address: zookeeper://152.136.157.169:2181
+  consumer:
+    check: false
+spring:
+  thymeleaf:
+    cache: false

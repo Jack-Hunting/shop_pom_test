@@ -1,0 +1,15 @@
+server:
+  port: 8083
+dubbo:
+  application:
+    name: web_item
+  registry:
+    address: zookeeper://152.136.157.169:2181
+  consumer:
+    check: false
+spring:
+  rabbitmq:
+    host: 152.136.157.169
+    username: admin
+    password: admin
+    virtual-host: /admin

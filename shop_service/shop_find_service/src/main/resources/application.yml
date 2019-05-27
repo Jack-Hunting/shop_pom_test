@@ -1,0 +1,19 @@
+spring:
+  data:
+    solr:
+      host: http://152.136.157.169:8080/solr
+  rabbitmq:
+    host: 152.136.157.169
+    username: admin
+    password: admin
+    virtual-host: /admin
+dubbo:
+  application:
+    name: find_service
+  registry:
+    address: zookeeper://152.136.157.169:2181
+  protocol:
+    name: dubbo
+    port: -1
+  provider:
+    timeout: 60000
