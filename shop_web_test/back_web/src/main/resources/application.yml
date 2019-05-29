@@ -3,7 +3,7 @@ dubbo:
   application:
     name: web_back
   registry:
-    address:  zookeeper://152.136.157.169:2181
+    address:  zookeeper://47.112.136.15:2181
   consumer:
     check: false
     timeout: 4000
@@ -14,7 +14,7 @@ spring:
     cache: false
 fdfs:
   tracker-list:
-    - 152.136.157.169:22122
+    - 47.112.136.15:22122
 #    连接超时时间
   connect-timeout: 5000
 #  读取超时时间
@@ -29,4 +29,4 @@ fdfs:
 server:
   port: 8080
 img:
-  server: http://152.136.157.169
+  server: http://47.112.136.15

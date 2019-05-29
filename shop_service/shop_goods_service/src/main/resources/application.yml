@@ -5,13 +5,14 @@ spring:
     password: root
     driver-class-name: com.mysql.jdbc.Driver
   rabbitmq:
-    host: 152.136.157.169
+    host: 47.112.136.15
     username: admin
     password: admin
     virtual-host: /admin
+    port: 5672
 dubbo:
   registry:
-    address:  zookeeper://152.136.157.169:2181
+    address:  zookeeper://47.112.136.15:2181
   protocol:
     name: dubbo
     port: -1

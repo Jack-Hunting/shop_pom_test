@@ -1,5 +1,5 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:s="http://www.w3.org/1999/html" xml:lang="en">
 <head>
     <base href="/"/>
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
@@ -509,6 +509,7 @@
             <script type="text/javascript" src="js/lib.js"></script>
             <script type="text/javascript" src="js/163css.js"></script>
             <div id="preview">
+
                 <div class=jqzoom id="spec-n1" onClick="window.open('/')">
                     <IMG height="350" src="http://152.136.157.169/${gimages[0]}" jqimg="http://152.136.157.169/${gimages[0]}" width="350">
                 </div>
@@ -519,7 +520,7 @@
                     <div id="spec-list">
                         <ul class="list-h">
                             <#list gimages as img>
-                                <li><img src="http://152.136.157.169/${img}" style="width: 50px; height: 50px"> </li>
+                                <li><img src="http://47.112.136.15/${img}" style="width: 50px; height: 50px"> </li>
                             </#list>
                         </ul>
                     </div>

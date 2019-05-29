@@ -22,7 +22,7 @@ public class RabbitMQListener {
     private SolrClient solrClient;
 
 
-     @RabbitListener(queues = "find_queue")
+     @RabbitListener(queues = "search_queue")
      public void goodsMessHandler(Goods goods){
          SolrInputDocument document = new SolrInputDocument();
          document.addField("id", goods.getId() + "");
