@@ -10,6 +10,7 @@ spring:
     password: admin
     virtual-host: /admin
     port: 5672
+
 dubbo:
   registry:
     address:  zookeeper://47.112.136.15:2181
